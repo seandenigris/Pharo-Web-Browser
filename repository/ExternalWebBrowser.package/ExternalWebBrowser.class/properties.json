@@ -1,0 +1,14 @@
+{
+	"category" : "ExternalWebBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ExternalWebBrowser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

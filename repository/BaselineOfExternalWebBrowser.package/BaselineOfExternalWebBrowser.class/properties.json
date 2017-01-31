@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfExternalWebBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfExternalWebBrowser",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
