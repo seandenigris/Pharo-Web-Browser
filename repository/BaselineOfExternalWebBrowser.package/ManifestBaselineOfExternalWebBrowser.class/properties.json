@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "",
-	"super" : "BaselineOf",
+	"commentStamp" : "<historical>",
+	"super" : "PackageManifest",
 	"category" : "BaselineOfExternalWebBrowser",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BaselineOfExternalWebBrowser",
+	"name" : "ManifestBaselineOfExternalWebBrowser",
 	"type" : "normal"
 }
