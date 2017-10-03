@@ -2,7 +2,7 @@
 
 A port of the ["External Web Browser" project from SqueakSource](http://www.squeaksource.com/ExternalWebBrowser.html) to Pharo 5+.
 
-#Installation
+# Installation
 
 ```smalltalk
 Metacello new
@@ -12,14 +12,14 @@ Metacello new
 	load.
 ```
   
-#Usage
+# Usage
 
-##Via Pharo Tools
+## Via Pharo Tools
 ```smalltalk
 Smalltalk tools webBrowser open: 'http://google.com'
 ```
 
-##Directly
+## Directly
 ```smalltalk
 ExternalWebBrowser new open: 'http://google.com'
 ```
