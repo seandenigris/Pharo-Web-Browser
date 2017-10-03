@@ -1,6 +1,6 @@
 # Pharo-Web-Browser
 
-A port of the ["External Web Browser" project from SqueakSource](http://www.squeaksource.com/ExternalWebBrowser.html) to Pharo 5+.
+A port of the ["External Web Browser" project from SqueakSource](http://www.squeaksource.com/ExternalWebBrowser.html) to Pharo 5+. Previous attempts [forked due to lack of write-access](http://www.smalltalkhub.com/#!/~SeanDeNigris/ExternalWebBrowser/) and then [ported for NativeBoost](http://www.smalltalkhub.com/#!/~SeanDeNigris/ExternalWebBrowser2).
 
 # Installation
 
