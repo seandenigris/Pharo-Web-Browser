@@ -1,3 +1,0 @@
-testing
-isObsolete
-	^ false

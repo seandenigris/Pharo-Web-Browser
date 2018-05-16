@@ -1,3 +1,3 @@
 *ExternalWebBrowser
 open
-	^ Smalltalk tools webBrowser open: self
+	^ Smalltalk tools webBrowser new open: self

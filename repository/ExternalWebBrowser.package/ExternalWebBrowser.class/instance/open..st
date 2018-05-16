@@ -1,3 +1,3 @@
 public
 open: aUrl
-	OSPlatform current open: aUrl asString
+	Smalltalk tools shell new open: aUrl asString
