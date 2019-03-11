@@ -1,5 +1,11 @@
-baselines
-baseline: spec
+Class {
+	#name : #BaselineOfExternalWebBrowser,
+	#superclass : #BaselineOf,
+	#category : 'BaselineOfExternalWebBrowser'
+}
+
+{ #category : #baselines }
+BaselineOfExternalWebBrowser >> baseline: spec [
 	<baseline>
 
 	spec for: #'common' do: [
@@ -11,3 +17,4 @@ baseline: spec
 			package: #'ExternalWebBrowser'  with: [
 				spec
 					requires: #('OSShell' 'Tempfile'). ] ].
+]
