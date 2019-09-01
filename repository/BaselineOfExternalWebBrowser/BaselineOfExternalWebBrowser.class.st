@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfExternalWebBrowser,
 	#superclass : #BaselineOf,
-	#category : 'BaselineOfExternalWebBrowser'
+	#category : #BaselineOfExternalWebBrowser
 }
 
 { #category : #baselines }
@@ -11,9 +11,9 @@ BaselineOfExternalWebBrowser >> baseline: spec [
 	spec for: #'common' do: [
 		spec 
 			baseline: 'OSShell' with: [ 
-				spec repository: 'github://seandenigris/Pharo-Shell:master/repository' ];
+				spec repository: 'github://seandenigris/Pharo-Shell' ];
 			baseline: 'Tempfile' with: [
-				spec repository: 'github://seandenigris/TempfileSt:master/repository' ];
+				spec repository: 'github://seandenigris/TempfileSt' ];
 			package: #'ExternalWebBrowser'  with: [
 				spec
 					requires: #('OSShell' 'Tempfile'). ] ].
