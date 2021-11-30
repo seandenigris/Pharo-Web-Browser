@@ -17,4 +17,19 @@ BaselineOfExternalWebBrowser >> baseline: spec [
 			package: #'ExternalWebBrowser'  with: [
 				spec
 					requires: #('OSShell' 'Tempfile'). ] ].
+					
+	spec for: #GToolkit do: [ 
+		spec package: 'ExternalWebBrowser-GToolkit' ]
+]
+
+{ #category : #accessing }
+BaselineOfExternalWebBrowser >> customProjectAttributes [
+	^ self isGTImage
+			ifFalse: [ #(notGToolkit) ]
+			ifTrue: [ #(GToolkit) ]
+]
+
+{ #category : #testing }
+BaselineOfExternalWebBrowser >> isGTImage [
+	^ RPackageOrganizer default packageNames anySatisfy: [ :pn | pn beginsWith: 'GToolkit-' ]
 ]
