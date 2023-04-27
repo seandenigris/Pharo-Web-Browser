@@ -5,7 +5,7 @@ ZnUrl >> gtActionWebBrowseFor: anAction [
 
 	<gtAction>
 		^ anAction button
-		  icon: BrGlamorousIcons go;
+		  icon: BrGlamorousVectorIcons link;
 		  tooltip: 'Browse on web';
 		  action: [ self open ]
 ]
