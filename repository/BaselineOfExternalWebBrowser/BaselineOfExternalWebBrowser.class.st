@@ -10,16 +10,16 @@ BaselineOfExternalWebBrowser >> baseline: spec [
 
 	spec for: #'common' do: [
 		spec 
-			baseline: 'OSShell' with: [ 
+			baseline: #'OSShell' with: [ 
 				spec repository: 'github://seandenigris/Pharo-Shell' ];
-			baseline: 'Tempfile' with: [
+			baseline: #'Tempfile' with: [
 				spec repository: 'github://seandenigris/TempfileSt' ];
 			package: #'ExternalWebBrowser'  with: [
 				spec
-					requires: #('OSShell' 'Tempfile'). ] ].
+					requires: #(OSShell Tempfile). ] ].
 					
 	spec for: #GToolkit do: [ 
-		spec package: 'ExternalWebBrowser-GToolkit' ]
+		spec package: #'ExternalWebBrowser-GToolkit' ]
 ]
 
 { #category : #accessing }
